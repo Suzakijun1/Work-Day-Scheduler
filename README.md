@@ -16,4 +16,4 @@ Future = Green
 Once data has been inputted, users can save the data to local storage by clicking on the save button.
 
 Picture:
-image.png
+'![Image](Assets/work-day-scheduler-pic.png)'
