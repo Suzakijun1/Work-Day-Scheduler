@@ -1,5 +1,13 @@
 var submitButton = document.querySelector(".saveBtn");
 var inputInformation = document.querySelector(".description");
+var dayDate = document.querySelector("#currentDay");
+
+//Displaying day and date
+function displayTime() {
+  var dayNow = dayjs().format("MMM DD, YYYY");
+  dayDate.textContent = dayNow;
+}
+displayTime();
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
